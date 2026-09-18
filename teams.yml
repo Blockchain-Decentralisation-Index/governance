@@ -5,6 +5,13 @@ teams:
       - ryjones
       - thelinuxfoundation
     members: []
+  - name: bdi-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - LadyChristina
+      - LauraAntunes1
+      - ZeeshanJan
 repositories:
   - name: .github
     teams:
