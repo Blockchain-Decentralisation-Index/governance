@@ -1,23 +1,62 @@
 teams:
+  - name: bdi-maintainers
+    maintainers:
+      - LadyChristina
+    members:
+      - LauraAntunes1
+      - ZeeshanJan
+  - name: cdi-maintainers
+    maintainers:
+      - LadyChristina
+    members:
+      - dimkarakostas
+      - ZeeshanJan
   - name: lf-staff
     maintainers:
       - jwagantall
       - ryjones
       - thelinuxfoundation
     members: []
-  - name: bdi-maintainers
+  - name: ndi-maintainers
     maintainers:
-      - ryjones
-    members:
       - LadyChristina
-      - LauraAntunes1
-      - ZeeshanJan
+    members:
+      - kaciibazizene
+  - name: sdi-maintainers
+    maintainers:
+      - LadyChristina
+    members: []
+  - name: tdi-maintainers
+    maintainers:
+      - LadyChristina
+    members: []
 repositories:
   - name: .github
     teams:
+      bdi-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: consensus-decentralization
+    teams:
+      cdi-maintainers: maintain
       lf-staff: maintain
     visibility: public
   - name: governance
     teams:
+      lf-staff: maintain
+    visibility: public
+  - name: network-decentralization
+    teams:
+      ndi-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: software-decentralization
+    teams:
+      sdi-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: tokenomics-decentralization
+    teams:
+      tdi-maintainers: maintain
       lf-staff: maintain
     visibility: public
