@@ -5,6 +5,11 @@ teams:
     members:
       - LauraAntunes1
       - ZeeshanJan
+  - name: bdi-overall-maintainers
+    maintainers:
+      - LadyChristina
+    members:
+      - LauraAntunes1
   - name: cdi-maintainers
     maintainers:
       - LadyChristina
@@ -33,11 +38,13 @@ teams:
 repositories:
   - name: .github
     teams:
+      bdi-overall-maintainers: maintain
       bdi-maintainers: maintain
       lf-staff: maintain
     visibility: public
   - name: consensus-decentralization
     teams:
+      bdi-overall-maintainers: maintain
       cdi-maintainers: maintain
       lf-staff: maintain
     visibility: public
@@ -47,16 +54,19 @@ repositories:
     visibility: public
   - name: network-decentralization
     teams:
+      bdi-overall-maintainers: maintain
       ndi-maintainers: maintain
       lf-staff: maintain
     visibility: public
   - name: software-decentralization
     teams:
+      bdi-overall-maintainers: maintain
       sdi-maintainers: maintain
       lf-staff: maintain
     visibility: public
   - name: tokenomics-decentralization
     teams:
+      bdi-overall-maintainers: maintain
       tdi-maintainers: maintain
       lf-staff: maintain
     visibility: public
